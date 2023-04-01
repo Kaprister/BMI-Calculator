@@ -10,6 +10,9 @@
 }
 
 #content{
+    width: auto;
+    height: auto;
+    display: flex;
     box-shadow: -1px -1px 12px #ebdddd, 1px 1px 12px #ebdddd;
 }
 

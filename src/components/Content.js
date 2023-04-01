@@ -78,7 +78,7 @@ const Content = () => {
   return (
     <div id="wrapper" className="  h-[100vh] w-full flex flex-col justify-center items-center bg-[#192345]">
         <h1 className="text-white text-xl tracking-wider leading-10 font-extrabold uppercase" >BMI Calculator</h1>
-        <div id="content" className="rounded-md bg-[#152d78] flex gap-3 p-4 m-3">
+        <div id="content" className="rounded-md bg-[#152d78] p-4 m-3">
             <div className="flex flex-col justify-center items-center gap-3">
                 <label>
                     <p className='font-bold text-center text-yellow-50 shadow-md'>BMI STATUS</p>
@@ -88,7 +88,7 @@ const Content = () => {
                         name="status"
                         placeholder='status'
                         onChange={changeStatus}
-                        className="border-2 font-bold w-[200px] border-slate-500 bg-[#ccfbf1] rounded-md text-center outline-none"
+                        className="border-2 font-bold w-[200px] border-slate-500 bg-[#8ee9ed] rounded-md text-center outline-none"
                         readOnly
                     />
                 </label>
