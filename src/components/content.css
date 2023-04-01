@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Rubik', sans-serif; */
+
+}
+
+#content{
+    box-shadow: -1px -1px 12px #ebdddd, 1px 1px 12px #ebdddd;
+}
+
+#inches:hover{
+    box-shadow: -1px -1px 3px #ebdddd, 1px 1px 3px #ebdddd;
+}
+#feet:hover{
+    box-shadow: -1px -1px 3px #ebdddd, 1px 1px 3px #ebdddd;
+}
+#weight:hover{
+    box-shadow: -1px -1px 3px #ebdddd, 1px 1px 3px #ebdddd;
+}
